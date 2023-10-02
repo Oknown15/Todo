@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Prompt&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
+<body id="body">
+    <div id="#header" class="header p-2">
+        <nav id="header" class="text-capitalize">youPlan</nav>
+    </div>
+    <div class="main position-relative password container"  id="password">
+   
+        <div class=" row-cols-2">
+            <div class=" col text-capitalize position-absolute top-50 end-0 translate-middle-y">
+                <emp class="inputP" id="#inputP">input password</emp>
+            </div>
+            <form>
+       <div class=" col text-danger txt position-absolute start-50 top-50 translate-middle"><p id="#txtmain"></p></div>
+            <div class="pass  position-absolute bottom-0 start-50 translate-middle">
+                <input class="pass1 text-capitalize text-dark border-none border-primary" placeholder="password"  type="password" name="password" id="#passId">
+                <input  class="submit text-capitalize" onclick="passwordCheck()" type="button" value="submit">
+                
+            </div>
+            
+            </form>
+        </div>
+    </div>
+<div class="p-3 position-relative">
+    <div class=""><h1 class="head" id="#head"></h1></div>
+    <div id="#class" class="class p-3 position-absolute start-50 top-100 translate-middle">
+        <input onclick="onPagebtn()" type="button" value="Todo">
+    </div>
+    <div id="pageCheckbox" class="container class2">
+        <div class="row " id="radio">
+            <div class="col-2">
+                <input id="radiofull" onclick="check()" class="" type="checkbox">
+            </div>
+            <div id="input5" class="col-2">
+                <input id="inputBox" type="text">
+            </div>
+        </div>
+        
+        </div>
+   
+        </div>
+        <div class="box p-3">
+            <ul id="list-container">
+            </ul>
+</div>
+
+</body>
+</html>
